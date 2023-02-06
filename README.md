@@ -36,13 +36,13 @@ First step will be to decide on a prior distribution for &theta; You decide to u
 
 1. Create a function containing a beta distribution (don't use the built in beta distribution) such that the mean of the distribution is 0.10 and &beta;=20. Remember that the mean of a beta distribution is &alpha;/(&alpha;+&beta;). Plot this distribution. For this case remember that our beta distribution for the prior is _x_^(&alpha;-1)(1-_x_)^(&beta;-1). This is our PRIOR.
 
-3. Create a function containing a binomial likelihood distribution that reflects our sampling for Field Site A. Plot this distribution. This is our LIKELIHOOD
+2. Create a function containing a binomial likelihood distribution that reflects our sampling for Field Site A. Plot this distribution. This is our LIKELIHOOD
 
-4. Create another function that represents our binomial likelihood multiplied by our prior. Plot this distribution
+3. Create another function that represents our binomial likelihood multiplied by our prior. Plot this distribution
 
-5. Integrate over our likelihood x prior to get a sum of the area under the curve
+4. Integrate over our likelihood x prior to get a sum of the area under the curve
 
-6. Create a final function that represents our posterior distribution by dividing the prior x likelihood function by the area under the curve. Plot this function!
+5. Create a final function that represents our posterior distribution by dividing the prior x likelihood function by the area under the curve. Plot this function!
 
 6. Use the `optimize()` function in R to find the &theta; with the maximum posterior value. Using this maximum posterior value (probability) what are the chances your _next_ sample will contain *B. harpocrates*?
 
@@ -56,7 +56,7 @@ You have convinced your PI there *might* be more than 5% presence of *B. harpocr
 2. Use the `optimize()` function in R to find the &theta; with the maximum posterior value. Using this maximum posterior value (probability) what are the chances your _next_ sample will contain *B. harpocrates*?
 
 
-### Question set 4
+### Question Set 4
 
 You updated the likelihoods in question set 3. But you also wanted to update the prior to lower your confidence in 0.1 as the true probability.
 
@@ -65,6 +65,9 @@ You updated the likelihoods in question set 3. But you also wanted to update the
 2. Plot the posterior distribution for your new dataset (5/10 samples) using the Beta function in R.
 
 3. Use the `optimize()` function in R to find the &theta; with the maximum posterior value for &theta;.  
+
+
+### Knit and upload your data
 
 
 
