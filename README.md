@@ -19,7 +19,7 @@ You are **so** excited when 2 of your 5 samples contain your species of interest
 
 2. Using the previously known probability (0.10) what are the chances that your _next_ sample will contain *B. harpocrates*?
 
-3. Using your sample proportion (2/3) what are the chances that your _next_ sample will conain *B. harpocrates*?
+3. Using your sample proportion (2/3) what are the chances that your _next_ sample will contain *B. harpocrates*?
 
 
 
@@ -30,11 +30,11 @@ To do this you complete the following steps
 
 ### Question Set 2
 
-You will be assessing the continous variable &theta; or the percent of your samples in Field A with your bacteria in it.
+You will be assessing the continuous variable &theta; or the percent of your samples in Field A with your bacteria in it.
 
 First step will be to decide on a prior distribution for &theta; You decide to use the beta prior with a mean of 0.1 and intermediate amount of confidence. 
 
-1. Create a function containing a beta distribution (don't use the built in beta distribution) such that the mean of the distribution is 0.10 and $beta;=20. Remember that the mean of a beta distribution is &alpha;/(&alpha;+&beta;). Plot this distribution. For this case remember that our beta distribution for the prior is _x_^(&alpha;-1)(1-_x_)^(&beta;-1). This is our PRIOR.
+1. Create a function containing a beta distribution (don't use the built in beta distribution) such that the mean of the distribution is 0.10 and &beta;=20. Remember that the mean of a beta distribution is &alpha;/(&alpha;+&beta;). Plot this distribution. For this case remember that our beta distribution for the prior is _x_^(&alpha;-1)(1-_x_)^(&beta;-1). This is our PRIOR.
 
 3. Create a function containing a binomial likelihood distribution that reflects our sampling for Field Site A. Plot this distribution. This is our LIKELIHOOD
 
@@ -60,7 +60,7 @@ You have convinced your PI there *might* be more than 5% presence of *B. harpocr
 
 You updated the likelihoods in question set 3. But you also wanted to update the prior to lower your confidence in 0.1 as the true probability.
 
-1. You want to maintain a prior distribution with a mean of 0.1, but you want that distribution to be more widely distributed. Therefore, adjust the $beta;=20 and then recalculate &alpha;. What values are you going to use for &beta; and &alpha;
+1. You want to maintain a prior distribution with a mean of 0.1, but you want that distribution to be more widely distributed. Therefore, adjust the &beta;=20 and then recalculate &alpha;. What values are you going to use for &beta; and &alpha;
 
 2. Plot the posterior distribution for your new dataset (5/10 samples) using the Beta function in R.
 
