@@ -34,6 +34,22 @@ You will be assessing the continous variable &theta; or the percent of your samp
 
 First step will be to decide on a prior distribution for &theta; You decide to use the beta prior centered over 0.05 with an intermediate amount of confidence. 
 
-1. Create a beta distribution such that (&alpha;-1)/(&beta-1); is 0.05 and (&beta-1);=20. Plot this distribution. For this case remember that our beta distribution for the prior is _x_^(&alpha;-1)(1-_x_)^((&beta;-1)
+1. Create a function containing a beta distribution such that (&alpha;-1)/(&beta-1); is 0.05 and (&beta-1);=20. Plot this distribution. For this case remember that our beta distribution for the prior is _x_^(&alpha;-1)(1-_x_)^(&beta;-1). This is our PRIOR.
+
+2. Create a function containing a binomial likelihood distribution that reflects our sampling for Field Site A. Plot this distribution. This is our LIKELIHOOD
+
+3. Create another function that represents our binomial likelihood multiplied by our prior. Plot this distribution
+
+4. Integrate over our likelihood x prior to get a sum of the area under the curve
+
+5. Create a final function that represents our posterior distribution by dividing the prior x likelihood function by the area under the curve. Plot this function!
+
+6. Use the `optimize()` function in R to find the &theta; with the maximum posterior value. Using this maximum posterior value (probability) what are the chances your _next_ sample will contain *B. harpocrates*?
+
+
+### Question Set 3
+
+
+
 
 
