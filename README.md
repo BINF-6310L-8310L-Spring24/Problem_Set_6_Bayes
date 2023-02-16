@@ -19,7 +19,7 @@ You are **so** excited when 2 of your 5 samples contain your species of interest
 
 2. Using the previously known probability (0.10) what are the chances that your _next_ sample will contain *B. harpocrates*?
 
-3. Using your sample proportion (2/3) what are the chances that your _next_ sample will contain *B. harpocrates*?
+3. Using your sample proportion (2/5) what are the chances that your _next_ sample will contain *B. harpocrates*?
 
 
 
