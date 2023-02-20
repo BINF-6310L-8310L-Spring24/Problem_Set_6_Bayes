@@ -60,7 +60,7 @@ You have convinced your PI there *might* be more than 5% presence of *B. harpocr
 
 You updated the likelihoods in question set 3. But you also wanted to update the prior to lower your confidence in 0.1 as the true probability.
 
-1. You want to maintain a prior distribution with a mean of 0.1, but you want that distribution to be more widely distributed. Therefore, adjust the &beta;=20 and then recalculate &alpha;. What values are you going to use for &beta; and &alpha;
+1. You want to maintain a prior distribution with a mean of 0.1, but you want that distribution to be more widely distributed. Therefore, adjust the &beta; value and then recalculate &alpha;. What values are you going to use for &beta; and &alpha;
 
 2. Plot the posterior distribution for your new dataset (5/10 samples) using the Beta function in R.
 
