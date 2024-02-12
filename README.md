@@ -17,9 +17,9 @@ You are **so** excited when 2 of your 5 samples contain your species of interest
  
 1. What is the binomial probability of getting 2 out of 5 positive samples with a true rate of 0.10?
 
-2. Using the previously known probability (0.10) what are the chances that your _next_ sample will contain *B. harpocrates*?
+2. Using the previously known probability (0.10) what are the chances that your _next_ sample will contain *B. harpocrates*? This would bring your total sample to 3 out of 5. 
 
-3. Using your sample proportion (2/5) what are the chances that your _next_ sample will contain *B. harpocrates*?
+3. Using your sample proportion (2/5) what are the chances that your _next_ sample will contain *B. harpocrates*? This would bring your total sample to 3 out of 5. 
 
  &nbsp;
 
