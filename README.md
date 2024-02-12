@@ -59,7 +59,7 @@ You have convinced your PI there *might* be more than 5% presence of *B. harpocr
 1. Plot the posterior distribution but this time using the built in R beta function. To do this we need to remember that for the posterior distribution we use Beta(&alpha; + *x*, &beta; + *N* - *x*). This is for observing *x* successes out of _N_ trials. Use the same &alpha; and &beta; values as you did in the previous section
 
 2. Use the `optimize()` function in R to find the &theta; with the maximum posterior value. Using this maximum posterior value (probability), what is the probability that in the five samples you will get 3 containing a sample of *B. harpocrates*
-3. 
+   
  &nbsp;
 
 ### Question Set D
