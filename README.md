@@ -52,7 +52,7 @@ First step will be to decide on a prior distribution for &theta; You decide to u
 
  &nbsp;
 
-### Question Set 3
+### Question Set C
 
 You have convinced your PI there *might* be more than 5% presence of *B. harpocrates*. So they let you sequence 5 more samples. Now you have 5/10 samples that contain this species of interest. 
 
@@ -62,7 +62,7 @@ You have convinced your PI there *might* be more than 5% presence of *B. harpocr
 3. 
  &nbsp;
 
-### Question Set 4
+### Question Set D
 
 You updated the likelihoods in question set 3. But you also wanted to update the prior to lower your confidence in 0.1 as the true probability.
 
