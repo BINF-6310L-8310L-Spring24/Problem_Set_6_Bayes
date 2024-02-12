@@ -44,7 +44,7 @@ First step will be to decide on a prior distribution for &theta; You decide to u
 
 5. Create another function that represents our binomial likelihood multiplied by our prior. Plot this distribution
 
-6. Integrate over our likelihood x prior to get a sum of the area under the curve. Report the area under the curve
+6. Integrate over our likelihood x prior to get a sum of the area under the curve. Report the area under the curve from 0 to 1
 
 7. Create a final function that represents our posterior distribution by dividing the prior x likelihood function by the area under the curve. Plot this function!
 
